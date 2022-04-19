@@ -1,0 +1,22 @@
+svg{
+    border: 1px solid red;
+    width: 600px;
+    height: 400px;
+}
+.rect{
+    stroke: green;
+    stroke-width: 5px;
+    stroke-linejoin: bevel;
+    x: 50px;
+    y: 10pxff;
+    width: 200px;
+    height:100px;
+    fill:red;
+}
+.line{
+    x1:300px;
+    y1:0px;
+    x2:300px;
+    y2:500px;
+    stroke: red;
+}
