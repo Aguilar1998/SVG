@@ -1,22 +1,43 @@
 svg{
-    border: 1px solid red;
+    border: 1px solid black;
     width: 600px;
     height: 400px;
 }
 .rect{
-    stroke: green;
-    stroke-width: 5px;
-    stroke-linejoin: bevel;
-    x: 50px;
-    y: 10px;
     width: 200px;
     height:100px;
-    fill:red;
+    stroke: black ;
+    stroke-width: 5px;
+    stroke-linejoin: bevel;
+    fill:rgb(165, 141, 141);
+}
+.rect1{
+    width: 200;
+    height: 100;
+    stroke: black ;
+    stroke-width: 5px;
+    stroke-linejoin: bevel;
+    fill:rgb(165, 141, 141);
+}
+.rect2{
+    width: 200; 
+    height: 100;stroke: black ;
+    stroke-width: 5px;
+    stroke-linejoin: bevel;
+    fill:rgb(165, 141, 141);
 }
 .line{
-    x1:300px;
-    y1:0px;
-    x2:300px;
-    y2:500px;
-    stroke: red;
+    x1: 300px;
+    y1: 0px;
+    x2: 300px;
+    y2: 400px;
+    stroke: green;
+}
+.ellipse{
+    stroke: black;
+    stroke-width: 8px;
+    stroke-linejoin: bevel;
+}
+svg path{
+    stroke: blue;
 }
