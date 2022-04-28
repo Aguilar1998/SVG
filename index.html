@@ -5,36 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grafic in SVG</title>
-    <link href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<!-- todas las etiquetas dentro del svg tienen que cerrarse -->
-
-
-<!-- rect x="": (Posicion en el eje x)-->
-<!-- rect y="": (Posicion en el eje y)-->
-<!-- rect fill="": (color de la figura(remplaza al background-color)) -->
-<!-- rect stroke="": (el color del borde) -->
-<!-- rect stroke-width="": (el ancho del borde) -->
-<!-- rect stroke-linejoin="": (Como se debe comportar/renderizar dos stroke) -->
-
-
-<!-- line stroke-linecap="": (Como acaba el final de la linea) -->
-<!-- polyline points="": (lineas rectas definidas por puntos dentros del atributo points) -->
-
-
-
-<!-- circle cx=""(centro del circulo en el eje x) -->
-<!-- circle cy=""(centro del circulo en el eje y) -->
-<!-- circle r="" (Radio del circulo) -->
-<!-- circle rx="" (Radio en el eje x) -->
-<!-- circle ry="" (Radio en el eje y) -->
-
 
 <body>
-    <!-- <?xml-stylesheet type="text/css" href="estilos.css"?> -->
-    <object id="icono-menu" type="image/svg+xml" data="/assets/image/car-lite.svg"></object>
-
-    <use xlink:href="#icono-menu"/>
+    <svg width="600" height="500" viewbox="0 0 600 500">
+        <g class="slide slide1">
+            <text x="80" y="300" font-size="80">
+                HTML
+            </text>
+        </g>
+        <g class="slide slide2">
+            <text x="50" y="300" font-size="80">
+                CSS
+            </text>
+        </g>
+        <g class="slide slide3">
+            <text x="150" y="300" font-size="80">
+                JAVASCRIP
+            </text>
+        </g>
+        <g class="slide slide4">
+            <text x="100" y="300" font-size="80">
+                React JS
+            </text>
+        </g>
+        <g class="slide slide5">
+            <text x="0" y="300" font-size="80">
+                Progm. Backend
+            </text>
+        </g>
+        <text x="32" y="400" font-size="80" class="slide slide-final">
+            !Full stack!
+        </text>
+    </svg>
 </body>
 </html>
