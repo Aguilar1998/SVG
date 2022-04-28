@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <svg width="600" height="400">
+        <defs>
+            <clipPath id="estrella">
+                <path stroke="#ef615f" 
+                d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" 
+                transform="scale(8)">
+                </path>
+            </clipPath>
+        </defs>
+        <image clip-path="url(#estrella)"
+        xlink:href="https://www.ngenespanol.com/wp-content/uploads/2018/08/La-primera-imagen-de-la-historia-770x413.jpg"
+        x="-25%" 
+        y="0" 
+        height="100%" 
+        width="100%"/>
+    </svg>
+</body>
+</html>

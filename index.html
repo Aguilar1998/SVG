@@ -30,38 +30,28 @@
 <!-- circle rx="" (Radio en el eje x) -->
 <!-- circle ry="" (Radio en el eje y) -->
 
+
 <body>
-    <svg class="svg-1" width="" height="1000" viewBox='-450 -450 900 600'>
-        <circle class="circulo" cx="0" cy="-340" r="50" fill="white"></circle>
-        <circle class="circulo" cx="0" cy="-200" r="100" fill="white"></circle>
-        <circle class="circulo" cx="0" cy="1" r="150" fill="white"></circle>
-        <circle class="svg-1__ojos" cx="-15" cy="-355" r="5" fill="black"></circle>
-        <circle class="svg-1__ojos" cx="15" cy="-355" r="5" fill="black"></circle>
+    <!-- <?xml-stylesheet type="text/css" href="estilos.css"?> -->
+    <object id="icono-menu" type="image/svg+xml" data="/assets/image/car-lite.svg"></object>
 
-        <circle class="svg-1__ojos" cx="0" cy="-250" r="5" fill="black"></circle>
-        <circle class="svg-1__ojos" cx="0" cy="-200" r="5" fill="black"></circle>
-        <circle class="svg-1__ojos" cx="0" cy="-150" r="5" fill="black"></circle>
-
-
-
-        <line x1="-84" y1="-250" x2="-250" y2="-200" stroke="black" stroke-width="6"></line>
-        <line x1="-260" y1="-220" x2="-248" y2="-200" stroke="black" stroke-width="6"></line>
-        <line x1="-250" y1="-175" x2="-248" y2="-200" stroke="black" stroke-width="6"></line>
-        <line x1="-275" y1="-195" x2="-250" y2="-200" stroke="black" stroke-width="6"></line>
-
-        <line x1="84" y1="-250" x2="250" y2="-200" stroke="black" stroke-width="6"></line>
-        <line x1="260" y1="-220" x2="248" y2="-200" stroke="black" stroke-width="6"></line>
-        <line x1="250" y1="-175" x2="248" y2="-200" stroke="black" stroke-width="6"></line>
-        <line x1="275" y1="-195" x2="250" y2="-200" stroke="black" stroke-width="6"></line>
-
-        <polygon points="-6,-345 6,-345 3,-315" fill="orange"></polygon>
+    <use xlink:href="#icono-menu"  />
+    <svg vixbox="100 50 20 100">
+        <use xlink:href="assets/page/prueba.html#idElemento"/>
+        <g>
+            <symbol id="idElemento" viewBox="0 0 250 200">
+                <circle  cx="50%" cy="150" r="40" stroke="red" stroke-width="2px" fill="green"/> 
+            </symbol>
+            <use xlink:href="#idElemento" class="adicional-1" tansform="scale(.3)"/>
+            <use x="0" y="-150" xlink:href="#idElemento" class="adicional-2" tansform="scale(.3)"/>
+        </g>
         <defs>
-            <path id="text" d="M-100,-45 Q100,-200 200,200"/>
-        </defs>  
-        <text font-size="40" font-family="UnifrakturMaguntia">
-        <textPath xlink:href="#text">
-            Feliz navidad</textpath>
-        </text>  
+            <path id="estrella" d="m25,1 6,17h181l-14m,11 5,17-15-10-15,10 5-17-14-11h18z">
+            </path>
+        </defs>
+        <textPath xlink:href="#degradado">
+            Martin
+        </textPath>
     </svg>
 </body>
 </html>

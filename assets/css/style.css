@@ -1,3 +1,48 @@
 body{
-    background-color: blue;
+    text-align: center;
+    background-color: rgb(198, 198, 228);
+}
+
+.slide{
+    fill: #ef615e;
+    opacity: 0;
+    font-family: 'Titillium Web';
+}
+.slide1{
+    animation: aparece 2s 2s;
+}
+
+.slide2{
+    animation: aparece 2s 4s;
+}
+.slide3{
+    animation: aparece 2s 6s;
+}
+.slide4{
+    animation: aparece 2s 8s;
+}
+.slide-final{
+    animation: final 2s 10s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes aparece{
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes final{
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes circofinal{
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
 }
