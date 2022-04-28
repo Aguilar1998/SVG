@@ -21,8 +21,11 @@ body{
 .slide4{
     animation: aparece 2s 8s;
 }
+.slide5{
+    animation: aparece 2s 10s;
+}
 .slide-final{
-    animation: final 2s 10s;
+    animation: final 2s 12s;
     animation-fill-mode: forwards;
 }
 
